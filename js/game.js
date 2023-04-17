@@ -41,7 +41,7 @@ class Game{
 
                 Player.getPlayerInfo();
                 player.getPlayerAtEnd();
-                Player.updatePlayerAtEnd();
+               
                  image(back_img, 0, 0, 1000, 800);
                  var x =100;
                  var y=200;
