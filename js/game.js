@@ -46,6 +46,7 @@ class Game{
                  var x =100;
                  var y=200;
                  var index =0;
+        
                  drawSprites();
                  for(var plr in allPlayers){
                     
