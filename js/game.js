@@ -75,12 +75,12 @@ class Game{
                  }
                 
                 if(player.score>=5){
-                    gameState = 2; 
-                    player.score+=1;
-                    updatePlayerAtEnd(player.rank);
-                    Player.update();
+                     
+                    player.rank+=1;
+                    Player.updatePlayerAtEnd(player.rank);
+                    player.update();
                     this.showRank();
-                    
+                    gameState = 2;
 
                 }
                  
